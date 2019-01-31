@@ -1,0 +1,24 @@
+language: nodejs
+sudo: false
+cache:
+- npm
+branches:
+  only:
+  - master
+before_script:
+- npm install gitbook
+script:
+- rm -r ./docs
+- gitbook build ./source ./docs
+- git add ./docs
+- git commit -m 'Built by TravisCI'
+- git push origin master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  keep-history: true
+  verbose: true
+  on:
+    branch: master
+  api-key:
+    secure: Ey6D3IogemXgDF57qVmrbP8Ap+hpbJE0Nnho7eYdeZdXyvvdaLp89I7289NgdbvKW9YrGkatdq+uLnt5FB72r9/CPif5CrUwn3XyaET5ALAI4rRtVJbFsFnwBdTtkEuISvbkKYvdMJNKTC30QtMT6SWcwJXNJlDnLHSbBeQPZVqAJln/u+zNvYcBhtoiXTsKHZvF5vfIIxliy/ly1t+j/+Y1RC3aEKEwymjBv/CBEpuE9F+ESsY79kevosN8yYEKWNzfNENTLmJrjluF2gmh4ncVaNIB6ydzKRJUSt9hOUALA871J4rhn2bnNdWcXdGq0wwxbVGSw2RmuPLI1QIo/gHNHyjzk5jLJJiyeypl2NVQC0Vl03syyORsoYwe3VByL4tuI/xZlUhq4vp/01Brr8kfY3fDEcHn1F8aHdPa+LE4IhpIbb2GcnNBAd3Bj+uqhsUaLp0CvKjxa1b6XLC2zHH9abZvarM2KDtZw99uZ4E91dhh41+HLLh4kw1Jc6GmR8OOSiaFZwn3UiEHvbS5jfk+GF59+sqtXYyHKB3959GDyg2/GtSY41hO3CXhVHPVMlrWOxgTlAj+OV7ZROGSjS42T1Efw7OkhyjNlfwnmRezLIUKElFdq3MgSylYprlKB5i6CEjIeD2H76fAHvHLl7Alt7NUzwSl4WoGGQoXuR8=
