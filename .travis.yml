@@ -3,13 +3,20 @@ node_js:
   - "4"
 
 sudo: false
+
 cache:
 - npm
+
 branches:
   only:
   - master
+
 before_script:
-- npm install gitbook-cli
+  - npm install gitbook-cli
+
+script:
+  - gitbook build source/ docs/
+
 deploy:
   provider: pages
   skip-cleanup: true
