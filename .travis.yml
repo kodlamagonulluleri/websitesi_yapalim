@@ -1,29 +1,23 @@
 language: node_js
 node_js:
-  - "4"
-
+- '4'
 sudo: false
-
 cache:
 - npm
-
 branches:
   only:
   - master
-
 before_script:
-  - npm install gitbook-cli
-
+- npm install gitbook-cli
 script:
-  - gitbook build source/ docs/
-
+- gitbook build source/ docs/
 deploy:
   provider: pages
   skip-cleanup: true
   keep-history: true
-  github_token: Ey6D3IogemXgDF57qVmrbP8Ap+hpbJE0Nnho7eYdeZdXyvvdaLp89I7289NgdbvKW9YrGkatdq+uLnt5FB72r9/CPif5CrUwn3XyaET5ALAI4rRtVJbFsFnwBdTtkEuISvbkKYvdMJNKTC30QtMT6SWcwJXNJlDnLHSbBeQPZVqAJln/u+zNvYcBhtoiXTsKHZvF5vfIIxliy/ly1t+j/+Y1RC3aEKEwymjBv/CBEpuE9F+ESsY79kevosN8yYEKWNzfNENTLmJrjluF2gmh4ncVaNIB6ydzKRJUSt9hOUALA871J4rhn2bnNdWcXdGq0wwxbVGSw2RmuPLI1QIo/gHNHyjzk5jLJJiyeypl2NVQC0Vl03syyORsoYwe3VByL4tuI/xZlUhq4vp/01Brr8kfY3fDEcHn1F8aHdPa+LE4IhpIbb2GcnNBAd3Bj+uqhsUaLp0CvKjxa1b6XLC2zHH9abZvarM2KDtZw99uZ4E91dhh41+HLLh4kw1Jc6GmR8OOSiaFZwn3UiEHvbS5jfk+GF59+sqtXYyHKB3959GDyg2/GtSY41hO3CXhVHPVMlrWOxgTlAj+OV7ZROGSjS42T1Efw7OkhyjNlfwnmRezLIUKElFdq3MgSylYprlKB5i6CEjIeD2H76fAHvHLl7Alt7NUzwSl4WoGGQoXuR8=
-  verbose: true
+  github_token: $GITHUB_TOKEN
   on:
     branch: master
-  api-key:
-    secure: Ey6D3IogemXgDF57qVmrbP8Ap+hpbJE0Nnho7eYdeZdXyvvdaLp89I7289NgdbvKW9YrGkatdq+uLnt5FB72r9/CPif5CrUwn3XyaET5ALAI4rRtVJbFsFnwBdTtkEuISvbkKYvdMJNKTC30QtMT6SWcwJXNJlDnLHSbBeQPZVqAJln/u+zNvYcBhtoiXTsKHZvF5vfIIxliy/ly1t+j/+Y1RC3aEKEwymjBv/CBEpuE9F+ESsY79kevosN8yYEKWNzfNENTLmJrjluF2gmh4ncVaNIB6ydzKRJUSt9hOUALA871J4rhn2bnNdWcXdGq0wwxbVGSw2RmuPLI1QIo/gHNHyjzk5jLJJiyeypl2NVQC0Vl03syyORsoYwe3VByL4tuI/xZlUhq4vp/01Brr8kfY3fDEcHn1F8aHdPa+LE4IhpIbb2GcnNBAd3Bj+uqhsUaLp0CvKjxa1b6XLC2zHH9abZvarM2KDtZw99uZ4E91dhh41+HLLh4kw1Jc6GmR8OOSiaFZwn3UiEHvbS5jfk+GF59+sqtXYyHKB3959GDyg2/GtSY41hO3CXhVHPVMlrWOxgTlAj+OV7ZROGSjS42T1Efw7OkhyjNlfwnmRezLIUKElFdq3MgSylYprlKB5i6CEjIeD2H76fAHvHLl7Alt7NUzwSl4WoGGQoXuR8=
+env:
+  global:
+    secure: JlqKjgtyclTCpAhcDJ3adLRm+n4TmykCtq6zMkthYPOFslP3GiZV0fUfx5mNffEJ6ApfP5BQ/8WyPjSUSK+C8BsI9izsMSJhG7blFCJGTFpe8fyZyJlX4HaudJqM31b9uBSol9nzINujm1XW6AhdHZ7B/AR6GFy01tTJO/pN3Nm7gKieSM0dzjJ7WWrwBU4B/A2rVsg3dnf3ne7LVHHzV/Tuf+Jd4SHFpsHfkQf2ZKbT9Rgi8i7QEjPfwn3pv2e9DB81zpohyDvTKzz3EKyFRBFv8lVg4EDVd29smgxheytDlD4yNQXxiPtSEVe3Di6RcxOviz+ZA8MaPV14+zJKnj+cH3/oiSqRiuhSA+1wRNfYxvYnBHQPoqDm52oDpNNyiNBEsfY30C3y702nPjHW779yKChmiIhSPLlQPG1sCpF7A46gmGve2UmGeqdADqvSq55f2XoTSu6lOxkElk56x4mn06KmZBLsgcqTD0LJRRof8L11XsWPu6GpBxNRChBCAwwQczdizRwEjw9DNJd8cgt/y7iQPsqW29SETUj8oL52h0S0fYPXBYrvuGCcfM8d7+0g8RLq23pwhVTPfhalylhh3MkQ7tNQ+MHUzB6s+BwmAb62nvlbFFz1gFrd4hY/A2APGMfitN8SjMRYIldHska5rirIh5/r3GBnN4vmQKc=
