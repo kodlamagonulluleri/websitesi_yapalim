@@ -6,13 +6,7 @@ branches:
   only:
   - master
 before_script:
-- npm install gitbook
-script:
-- rm -r ./docs
-- gitbook build ./source ./docs
-- git add ./docs
-- git commit -m 'Built by TravisCI'
-- git push origin master
+- npm install gitbook-cli
 deploy:
   provider: pages
   skip-cleanup: true
