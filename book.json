@@ -4,11 +4,4 @@
 	"description": "Bu döküman HTML ve CSS'i uygulamalı olarak öğretme amacı taşır. Dökümanı başarıyla tamamlayanlar kendi amatör websitelerini yapmış olacaklar.",
 
 	"root": "source/",
-	"plugins":["prism-ext","-highlight"],
-	  "pluginsConfig": {
-    	"prism": {
-    	  "plugins": ["line-numbers","line-highlight"],
-    	  	"cssClasses": "line-numbers"
-    		}
-  		}
 }
