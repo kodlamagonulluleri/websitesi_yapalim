@@ -21,7 +21,8 @@ Aslında başlık oluşturmak HTML'de çok basit. Başlık olmasını istediğim
 
 Bu örneğimizin tarayıcıda verdiği çıktıya hep beraber bakalım.
 
-![hx-tags]( "hX tags")
+![hx-tags](../0-static/h-tags.jpg "hX tags")
+
 
 # `<a>` etiketi
 
