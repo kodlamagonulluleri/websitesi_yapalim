@@ -53,6 +53,10 @@ Sayfamız sadece yazılardan oluşmuyor. Bir çok zaman resimlerden de yardım a
 
 Örneğimizi bir HTML dosyası olarak kaydedip herhangi bir tarayıcı ile açarsak mavi renkte **@kodlamag** yazdığını ve bu yazıya tıkladığımızda ilgili Twitter adresinin açıldığını görebilirsiniz. Ayrıca farklı etiketlere de bağlantı verebildiğimizden bahsetmiştik. **a** etiketine içerik olarak farklı bir etiket (örneğin **img** etiketi ile bir görsel) verirseniz verdiğiniz etiketin çıktısı da tıklanabilir olacaktır.
 
+# `<br>` etiketi
+
+Bazı durumlarda bir alt satıra geçmemiz gerekebiliyor. Bu durumda `<br>` etiketini kullanıyoruz. Bu etiket de *img* etiketi gibi kapatılmaya gerek duyulmayan etiketlerden.
+
 # Bölümler
 
 Web sayfalarımızı yekpare oluşturmuyoruz. Örneğin çoğu web sayfasının üst kısmında bir menü bölümü, onun altında içerik bölümü, (eğer var ise) yan kısımında ek detaylar bölümü ve en altta da bir altbilgi bölümü görüyoruz. Bunların her biri bir bölüm olarak değerlendirilebilir.
