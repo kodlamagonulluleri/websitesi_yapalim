@@ -6,3 +6,4 @@
 * [HTML'e Giriş](2-about_html/summary.md)
     * [Temel Etiketler](2-about_html/tags.md)
     * [Derinlere İnelim](2-about_html/tags2.md)
+* [CSS'e Giriş](3-about_css/summary.md)
