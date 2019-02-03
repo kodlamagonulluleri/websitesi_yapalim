@@ -1,3 +1,5 @@
+# CSS'e Giriş
+
 CSS (Cascading Style Sheets) için genel tabirle HTML elemanlarını stillendirmemize olanak sağlayan bir dil diyebiliriz. Örneğin HTML'de *div* etiketini görmüştük. Bu etiketlerle oluşturduğumuz kutucukların boyutlarının ne olacağını, herhangi bir taraftan içeriye girdilenip girdilenmeyeceği gibi özellikleri CSS ile belirliyoruz.
 
 # Sözdizimi
