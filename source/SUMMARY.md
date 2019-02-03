@@ -9,3 +9,4 @@
 * [CSS'e Giriş](3-about_css/summary.md)
 * [Başlayalım](4-lets_start/begin.md)
 	* [HTML'i Hazırlayalım](4-lets_start/prepare_html.md)
+	* [Görünüşü Güzelleştirelim](4-lets_start/beautify_html.md)
