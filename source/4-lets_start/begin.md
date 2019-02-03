@@ -5,6 +5,6 @@ Dökümanın bu bölümüne geldiysek artık kişisel web sayfamızın temelleri
 --- websitem\  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;|-- index.html  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;|-- style.css  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;|-- fotografim.jpg (ve ya .png)
+&nbsp;&nbsp;&nbsp;&nbsp;|-- ben.jpg (ve ya .png)
 
 Şimdi bir sonraki bölüme geçip kodlarımı yazmaya başlayabiliriz.
