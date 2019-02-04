@@ -160,7 +160,7 @@ HTML sayfamızın son halini kontrol edelim.
 		<p>A <b>software engineer</b> with 10+ years experience in <i>web development</i> who loves to share her knowledge with people.</p>
 	</section>
 	<section>
-		<h2>Work</h2>
+		<h2>Deneyim</h2>
 		<ul>
 			<li>
 				<b>Simaka Türkiye</b><br>
