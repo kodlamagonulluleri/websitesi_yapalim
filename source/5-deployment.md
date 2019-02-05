@@ -16,6 +16,6 @@ Dosyalarımızı sürükledikten sonra aşağıda listelenmiş şekilde görebil
 
 Burada aşağıya doğru indiğimizde *GitHub Pages* alanını göreceğiz. Buradan *Source* seçeneğini *master branch* olarak seçelim ve *Save* butonuna basalım. 
 
-![GitHubpages](../0-static/gh_pages.jpg "")
+![GitHubpages](../0-static/gh_pages.jpg '')
 
 Artık her şey hazır! Tarayıcımızdan https://github_kullanici_adimiz.github.io adresine gidersek kendi sayfamızı görebiliriz. Bağlantıyı kendi github kullanıcı adınıza göre düzenlemeyi unutmayın. Her şeyi halledip kendi kişisel sayfamızı oluşturduğumuz ve yayınladığıma göre bunu paylaşmaya hazırız. Twitter üzerinden [@KodlamaG](www.twitter.com/kodlamag) ve [@bugraisguzar](www.twitter.com/bugraisguzar) adreslerini etiketleyerek bağlantınızı paylaşırsanız biz de gururlanabiliriz!
