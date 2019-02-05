@@ -4,4 +4,11 @@
 
 * [İnternet Nasıl Çalışır](1-how_internet_works/content.md)
 * [HTML'e Giriş](2-about_html/summary.md)
-    * [Etiketler](2-about_html/tags.md)
+    * [Temel Etiketler](2-about_html/tags.md)
+    * [Derinlere İnelim](2-about_html/tags2.md)
+* [CSS'e Giriş](3-about_css.md)
+* [Başlayalım](4-lets_start/begin.md)
+	* [HTML'i Hazırlayalım](4-lets_start/prepare_html.md)
+	* [Görünüşü Güzelleştirelim](4-lets_start/beautify_html.md)
+	* [Son Dokunuşlar](4-lets_start/retouch.md)
+* [Sayfamızı Yayınlayalım](5-deployment.md)

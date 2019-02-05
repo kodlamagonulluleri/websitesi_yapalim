@@ -6,6 +6,8 @@ HTML'in bir programlama dili olmadığını bilmeliyiz. Yani HTML ile mantıksal
 
 # HTML Temelleri
 
-HTML temel olarak ilerleyen zamanlarda **tag** olarak da anacağımız *etiketler*den oluşuyor. HTML'de açılan her etiket aynı sıra ile kapatılmak zorundadır. Yani her başlangıcın bir sonu olmalıdır. Örneğin paragraf içinde bir bölümü kalın yazdırmak istiyorsanız bu bölümün bir başlangıcı bir de sonu olmalı. Bazı etiketlerin içine içerik girebiliyoruz. Mesela paragraf oluşturmak için kullandığımız **p** etiketinin içine paragrafın kendisini yazıyoruz. Bu kısıma *content* yani *içerik* diyoruz. Ve açılış etiketi, içerik, kapanış etiketi üçlüsünün oluşturduğu bütüne ise *element* diyoruz. Biraz karmaşık bir paragraf oldu, bunu görselleştirelim.
+HTML temel olarak ilerleyen zamanlarda **tag** olarak da anacağımız *etiketler*den oluşuyor. HTML'de açılan her etiket aynı sıra ile kapatılmak zorundadır. Yani her başlangıcın bir sonu olmalıdır. Örneğin paragraf içinde bir bölümü kalın yazdırmak istiyorsanız bu bölümün bir başlangıcı bir de sonu olmalı. Bazı etiketlerin içine içerik girebiliyoruz. Mesela paragraf oluşturmak için kullandığımız **p** etiketinin içine paragrafın kendisini yazıyoruz. Bu kısıma *content* yani *içerik* diyoruz. Ve açılış etiketi, içerik, kapanış etiketi üçlüsünün oluşturduğu bütüne ise *element* diyoruz.
 
-![htmlfundamentals](https://www.mediaclick.com.tr/mp-include/uploads/2018/10/grumpy-cat-small.png '')
+Ayrıca bazı HTML etiketleri özel nitelikler alabilirler. Her etiketin alabileceği nitelikler farklı olabilir. Nitelikleri açılış kısımında **nitelik="değer"** şeklinde belirtiyoruz. Çok soyut olduğu için tam olarak anlayamamış olabilirsiniz. Görsel üzerinden daha oturaklı olacaktır.
+
+![htmlfundamentals](anatomy-of-html-element.png '')

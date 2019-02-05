@@ -3,5 +3,5 @@
 	"language": "tr",
 	"description": "Bu döküman HTML ve CSS'i uygulamalı olarak öğretme amacı taşır. Dökümanı başarıyla tamamlayanlar kendi amatör websitelerini yapmış olacaklar.",
 
-	"root": "docs/"
+	"root": "source/"
 }
