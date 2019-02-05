@@ -1,10 +1,10 @@
 # HTML Etiketleri (devam)
 
-Bir önceki kısımda gördüğümüz etiketler kullanmamız gereken, bir HTML sayfasının temeltaşlarını oluşturan etiketlerdi. Ancak bu sayfada göreceğimiz tüm etiketler bizim hayal gücümüzü tarayıcıya aktarmamızı sağlayacak etiketler. Yani bu etiketleri istediğimiz kombinasyonlarda kullanarak istediğimiz web sayfasını oluşturabiliriz. Ancak tahmin edebileceğiniz üzere HTML etiketleri buradakiler ile sınırlı değil. Biz burada sadece dökümanın ilerleyen aşamalarında işimize yarayacak olanları göreceğiz. Diğer tüm HTML etiketleri için [w3schools/tags (ingilizce)](https://www.w3schools.com/tags/) sayfasını ziyaret edebilirsiniz.
+Bir önceki kısımda gördüğümüz etiketler kullanmamız gereken, bir HTML sayfasının temel taşlarını oluşturan etiketlerdi. Ancak bu sayfada göreceğimiz tüm etiketler bizim hayal gücümüzü tarayıcıya aktarmamızı sağlayacak etiketler. Yani bu etiketleri istediğimiz kombinasyonlarda kullanarak istediğimiz web sayfasını oluşturabiliriz. Ancak tahmin edebileceğiniz üzere HTML etiketleri buradakiler ile sınırlı değil. Biz burada sadece dökümanın ilerleyen aşamalarında işimize yarayacak olanları göreceğiz. Diğer tüm HTML etiketleri için [w3schools/tags (ingilizce)](https://www.w3schools.com/tags/) sayfasını ziyaret edebilirsiniz.
 
 # Yazı Etiketleri
 
-Web sayfaları oluştururken her zaman büyülü işler yapan kodlar yazmıyoruz. Bazen de düz yazılar yazmamız gerekiyor ki çoğu zaman sayfaların temellerini bu düz yazılar oluşturuyor. Ve biz yazı yazarken bazı noktaları kalınlaştırmak, başlıklar oluşturmak isteyebiliyoruz. Tam bu noktada şimdi göreceğimiz etiketlerden yardım alıyoruz. Tam bu noktada hatırlatmam gereken bir konu var. Dökümanın HTML'e Giriş kısımında HTML etiketlerinin yapısından bahsetmiştik. Bazı etiketlerin açılması ile kapanması arasına değerler girebildiğimizi ve bunlara içerik (content) dediğimizi hatırlıyorsanız okumaya devam edebilirsiniz.
+Web sayfaları oluştururken her zaman büyülü işler yapan kodlar yazmıyoruz. Bazen de düz yazılar yazmamız gerekiyor ki çoğu zaman sayfaların temellerini bu düz yazılar oluşturuyor. Ve biz yazı yazarken bazı noktaları kalınlaştırmak, başlıklar oluşturmak isteyebiliyoruz. Tam bu noktada şimdi göreceğimiz etiketlerden yardım alıyoruz. Ancak önemli bir konuyu hatırlamamız gerekiyor. Dökümanın HTML'e Giriş kısımında HTML etiketlerinin yapısından bahsetmiştik. Bazı etiketlerin açılması ile kapanması arasına değerler girebildiğimizi ve bunlara içerik (content) dediğimizi hatırlıyor olmamız gerekiyor.
 
 ## Başlıklar
 
@@ -40,7 +40,7 @@ Günlük hayatta bile yazılar yazarken (özellikle de uzun yazılar) okunabilir
 
 Sayfamız sadece yazılardan oluşmuyor. Bir çok zaman resimlerden de yardım alıyoruz. Bu noktada `<img>` etiketi bizim yardımımıza koşuyor. HTML'de etiketlerin kapatılması gerektiğinden bahsetmiştik. Ancak bazı istisna etiketlerimiz de yok değil. Örneğin **img** etiketimizi açıyoruz ancak kapatmıyoruz. Çünkü bu etiket içerik (content) olarak bir değer almıyor ve dolayısıyla kapatılmasına da gerek olmuyor. Yani bir kapsama alanı yok, kendisi bir işlemi gerçekleştiriyor sadece diyebiliriz.
 
-*HTML'e Giriş* kısımında bazı etiketlerin nitelikler alabildiğinden bahsetmiştik. Bu etiketlerden biri `<img>` etiketi. Bu etikete **src** adında bir nitelik ile değer olarak görselim adresini veriyoruz ve o görseli sayfamıza eklemiş oluyoruz. Adres olarak görselin internet üzerindeki bir adresini verebileceğimiz gibi eğer HTML sayfamız ile erişebilecek bir konumdaysa dosya yolunu da verebiliriz. Örneğin test.html sayfamız ve test.png dosyamız aynı klasörde olsunlar. Biz HTML sayfamız içinde <img src="test.png">` kodumuzu yazarsak yine görsel sayfamıza eklenmiş olacak.
+*HTML'e Giriş* kısımında bazı etiketlerin nitelikler alabildiğinden bahsetmiştik. Bu etiketlerden biri `<img>` etiketi. Bu etikete **src** adında bir nitelik ile değer olarak görselim adresini veriyoruz ve o görseli sayfamıza eklemiş oluyoruz. Adres olarak görselin internet üzerindeki bir adresini verebileceğimiz gibi eğer HTML sayfamız ile erişebilecek bir konumdaysa dosya yolunu da verebiliriz. Örneğin test.html sayfamız ve test.png dosyamız aynı klasörde olsunlar. Biz HTML sayfamız içinde `<img src="test.png">` kodumuzu yazarsak yine görsel sayfamıza eklenmiş olacak.
 
 
 # `<a>` etiketi
@@ -83,7 +83,7 @@ Ancak günümüzde bu iş biraz daha karmaşık bir hâl aldı(!). **HTML5** ile
 
 # Listeleme
 
-HTML'de liste oluşturmanın birkaç farklı yolu var roma rakamlarıyla listeleme, harfler ile listeleme, latin rakamlarıyla listeleme ve noktalar ile listeleme. Biz şimdilik noktalar şeklinde yani madde madde listeleme ile ilgileniyoruz. Liste oluştururken bundan önce öğrendiklerimizden farklı olarak birden fazla etiket kullanacağız. `<ul>` ve `<li>` etiketleri liste oluşturmamızda bize yardımcı olacak. 
+HTML'de liste oluşturmanın birkaç farklı yolu var roma rakamlarıyla listeleme, harfler ile listeleme, latin rakamlarıyla listeleme ve noktalar ile listeleme. Biz şimdilik noktalar şeklinde yani madde madde listeleme ile ilgileniyoruz. Liste oluştururken bundan önce öğrendiklerimizden farklı olarak birden fazla etiket kullanacağız. `<ul>` ve `<li>` etiketleri liste oluşturmamızda bize yardımcı olacak.
 
 `<ul>` etiketi ile öncelikle listemizi başlatacağız ve daha sonrasında her bir liste elemanı için `<li>` etiketini kullanacağız. Bazı büyükşehirleri içeren bir liste oluşturalım ve örnek üzerinden ilerleyelim.
 

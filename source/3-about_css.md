@@ -4,7 +4,7 @@ CSS (Cascading Style Sheets) için genel tabirle HTML elemanlarını stillendirm
 
 # Sözdizimi
 
-CSS stil dosyalarımı oluştururken bilmemiz gereken bir şey var. Bu dosyalarda aslında HTML dosyamızdaki bir şeyi (şeyi diyorum çünkü tek bir eleman da olabilir bir sınıfa sahil eleman grubu da olabilir, birazdan daha detaylı göreceğiz) şekil bakımından düzenliyoruz. Dolayısıyla neyi düzenlediğimizi bildirmemiz gerekiyor. Tam bunu yaptığımız kısıma *seçici (selector)* diyoruz. Daha sonrasında ise süslü parantezler içine o seçtiğimiz şeyin sahip olmasını istediğimiz özellikleri yazıyoruz. Özellikleri yazarken **özellik: değer;** formatında yazıyoruz. Aslında en sonra noktalı virgülü koymasak da olur. Ancak bu durum sadece tek bir özellik belirteceksek geçerli. Birden fazla özellik tanımlarken noktalı virgüller ile ayırıyoruz.
+CSS stil dosyalarını oluştururken bilmemiz gereken bir şey var. Bu dosyalarda aslında HTML dosyamızdaki bir şeyi (şeyi diyorum çünkü tek bir eleman da olabilir bir sınıfa dahil eleman grubu da olabilir, birazdan daha detaylı göreceğiz) şekil bakımından düzenliyoruz. Dolayısıyla neyi düzenlediğimizi bildirmemiz gerekiyor. Tam bunu yaptığımız kısıma *seçici (selector)* diyoruz. Daha sonrasında ise süslü parantezler içine o seçtiğimiz şeyin sahip olmasını istediğimiz özellikleri yazıyoruz. Özellikleri yazarken **özellik: değer;** formatında yazıyoruz. Aslında en sonra noktalı virgülü koymasak da olur. Ancak bu durum sadece tek bir özellik belirteceksek geçerli. Birden fazla özellik tanımlarken noktalı virgüller ile ayırıyoruz.
 
 
 Bahsettiklerimizi görsel üstünde daha kolay anlayabiliriz.
@@ -39,7 +39,7 @@ Gördüğünüz gibi kırmızı bir yazı elde ettik. Burada dikkat edilmesi ger
 
 # HTML ile CSS
 
-HTML ile sayfalarımızı oluşturduğumuzdan CSS ile de sayfalarımızı biçimlendirdiğimiz/güzelleştirdiğimizden bahsettik. Peki hangi CSS dosyası hangi HTML dosyasına etki edeceğini nasıl bilebiliyoruz? Biz belirtiyoruz. HTML'e giriş kısımında HTML şablonundan bahsetmiştik. Orada `<head>` etiketinden bahsetmiştik. Bu etiketi içine `<link>` etiketi ekliyoruz ve *rel* niteliğine *stylesheet* değerini veriyoruz. Daha sonra *a* etiketinden de hatırladığımız *href* niteliğine de CSS dosyamızın dizinini değer olarak veriyoruz. 
+HTML ile sayfalarımızı oluşturduğumuzu ve CSS ile de sayfalarımızı biçimlendirdiğimizi/güzelleştirdiğimizi öğrendik. Peki hangi CSS dosyası hangi HTML dosyasına etki edeceğini nasıl bilebiliyoruz? Biz belirtiyoruz. HTML'e giriş kısımında HTML şablonundan bahsetmiştik. Orada `<head>` etiketi ile bazı şeyleri belirtiyorduk, örneğin *title*. Bu etiketi içine `<link>` etiketi ekliyoruz ve *rel* niteliğine *stylesheet* değerini veriyoruz. Daha sonra *a* etiketinden de hatırladığımız *href* niteliğine de CSS dosyamızın dizinini değer olarak veriyoruz.
 
 ~~~html
 <head>

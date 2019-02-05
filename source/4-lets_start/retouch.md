@@ -1,6 +1,6 @@
 # Son Dokunuşlar
 
-HTML kodlarımızı yazarken bir menü oluşturduğumuzu hatırlıyorsunuz. Bu menüyü artık işlevsel yapma zamanı geldi. *a* etiketinin sadece web sitelerine bağlantı vermediğinden bahsetmiştik. Bu etiketin bir özelliği de sayfa içinde bağlantı verebiliyor olması. Peki bu bağlantıyı nereye veriyor? Diğer HTML etiketlerine. Peki hangi etikete bağlantı vereceğimizi nasıl seçiyoruz? Etiketlerin **id** niteliğine eşsiz kimlik atayarak. Şimdi oluşturduğumuz *özet, deneyim, eğitim, yetenekler, iletişim* bölmelerine eşsiz id yani kimlikler atayalım. Sırasıyla bu bölümlere ayacağımız id değerlerini listeliyorum.
+HTML kodlarımızı yazarken bir menü oluşturduğumuzu hatırlıyorsunuz. Bu menüyü artık işlevsel yapma zamanı geldi. *a* etiketinin sadece web sitelerine bağlantı vermediğinden bahsetmiştik. Bu etiketin bir özelliği de sayfa içinde bağlantı verebiliyor olması. Peki bu bağlantıyı nereye veriyor? Diğer HTML etiketlerine. Peki hangi etikete bağlantı vereceğimizi nasıl seçiyoruz? Etiketlerin **id** niteliğine eşsiz kimlik atayarak. Şimdi oluşturduğumuz *özet, deneyim, eğitim, yetenekler, iletişim* bölmelerine eşsiz id yani kimlikler atayalım. Sırasıyla bu bölümlere atayacağımız id değerlerini listeliyorum.
 
 * bölme      ->  alacağı değer
 * özet       ->  ozet
@@ -9,7 +9,7 @@ HTML kodlarımızı yazarken bir menü oluşturduğumuzu hatırlıyorsunuz. Bu m
 * yetenekler ->  yetenekler
 * iletişim   ->  iletisim
 
-Özetle o bölüme belirlediğimiz başlıktan Türkçe karakterleri düzenleyerek idyi tanımlayacağız. İlk bölümümüz olan *özet* kısımının section etiketinin id'sini tanımlayalım. 
+Özetle o bölüme belirlediğimiz başlıktan Türkçe karakterleri düzenleyerek idyi tanımlayacağız. İlk bölümümüz olan *özet* kısımının section etiketinin id'sini tanımlayalım.
 
 ~~~html
 	<section>
@@ -18,7 +18,7 @@ HTML kodlarımızı yazarken bir menü oluşturduğumuzu hatırlıyorsunuz. Bu m
 	</section>
 ~~~
 
-HTML kodlarımızı yazarken oluşturduğumuz *özet* bölümü böyle görünüyor olmalıydı (içeriğin sizin bilgilerinize göre farklılık gösterebileceğini unutmayalım). Şimdi *section* etiketinin *id* niteliğine *ozet* değerini tanımlayalım. 
+HTML kodlarımızı yazarken oluşturduğumuz *özet* bölümü böyle görünüyor olmalıydı (içeriğin sizin bilgilerinize göre farklılık gösterebileceğini unutmayalım). Şimdi *section* etiketinin *id* niteliğine *ozet* değerini tanımlayalım.
 
 Sonuç olarak kodlarımız artık şu şekilde görünüyor olmalı.
 
