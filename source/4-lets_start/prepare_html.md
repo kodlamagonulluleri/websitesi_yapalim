@@ -33,7 +33,7 @@ Hadi şimdi sayfamızın *header*ini yani başlık kısımını hazırlayalım.
 ~~~html
 <header>
 	<h1>Buğra İŞGÜZAR</h1>
-	<img src="ben.jpg">
+	<img src="ben.png">
 	<ul>
 		<li>Özet</li>
 		<li>Deneyim</li>
@@ -145,7 +145,7 @@ HTML sayfamızın son halini kontrol edelim.
 ~~~html
 <header>
 	<h1>Buğra İŞGÜZAR</h1>
-	<img src="ben.jpg">
+	<img src="ben.png">
 	<ul>
 		<li>Özet</li>
 		<li>Deneyim</li>
