@@ -10,7 +10,7 @@ CSS stil dosyalarımı oluştururken bilmemiz gereken bir şey var. Bu dosyalard
 Bahsettiklerimizi görsel üstünde daha kolay anlayabiliriz.
 
 <center>
-	<img src="../0-static/anatomy-of-css.png">
+	<img src="0-static/anatomy-of-css.png">
 </center>
 
 ## Seçici
