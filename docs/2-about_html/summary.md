@@ -10,4 +10,4 @@ HTML temel olarak ilerleyen zamanlarda **tag** olarak da anacağımız *etiketle
 
 Ayrıca bazı HTML etiketleri özel nitelikler alabilirler. Her etiketin alabileceği nitelikler farklı olabilir. Nitelikleri açılış kısımında **nitelik="değer"** şeklinde belirtiyoruz. Çok soyut olduğu için tam olarak anlayamamış olabilirsiniz. Görsel üzerinden daha oturaklı olacaktır.
 
-![htmlfundamentals](../0-static/anatomy-of-html-element.png '')
+![htmlfundamentals](0-static/anatomy-of-html-element.png '')
