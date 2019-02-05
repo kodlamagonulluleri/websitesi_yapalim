@@ -2,7 +2,7 @@
 
 Selamlar, bu döküman ile birlikte internet sitelerinin ve tarayıcıların vacgeçilmezi olan HTML/CSS ikilisi hakkında bilgi sahibi olacaksınız. Eğer dökümanı başarılı bir şekilde tamamlarsanız kendi kişisel websitenizin temellerini atmış olacaksınız. Dökümanı tamamlamak yaklaşık 3 saat kadar sürebilir. Eğer bu dökümanı herhangi bir workshopta uyguluyorsanız karşılaştığınız sorunlarda ve ya anlamadığınız noktalarda etkinlik alanındaki mentörden yardım istemekten çekinmeyin!
 
-Bu dökümanda karşılaştığınız eksikleri, yazım yanlışlarını ve ya şöyle olsa daha anlaşılabilir olurmuş dediğiniz yerleri bizlere twitter [@kodlamag](https://twitter.com/KodlamaG) hesabından bildirebilirsiniz. Aynı zamanda bu döküman github üzerinde barınıyor. Dolayısıyla github üzerinden düzeltilmiş versiyonunu gönderebilir, dökümana katkıda bulunabilirsiniz. 
+Bu dökümanda karşılaştığınız eksikleri, yazım yanlışlarını ve ya şöyle olsa daha anlaşılabilir olurmuş dediğiniz yerleri bizlere twitter [@kodlamag](https://twitter.com/KodlamaG) ve [@bugraisguzar](https://twitter.com/bugraisguzar) hesaplarından bildirebilirsiniz. Aynı zamanda bu döküman github üzerinde barınıyor. Dolayısıyla github üzerinden düzeltilmiş versiyonunu gönderebilir, dökümana katkıda bulunabilirsiniz. 
 
 # Hazırlık
 
