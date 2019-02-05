@@ -18,7 +18,7 @@ Başlangıç için *index.html* sayfamızı bu şekilde düzenleyelim. Ben *titl
 
 Burada dikkat etmemiz geken kısım `<link rel="stylesheet" href="style.css">` satırı. bu satırda CSS dosyamızı çağırdığımızı daha önce öğrenmiştik. HTML ile CSS dosyalarımız aynı dizinde bulunduğu için *href* niteliğine direk dosyanın adını değer olarak verebiliriz. Şimdi sayfamızın içeriğini oluşturmaya başlayabiliriz. Bu aşamadan sonra yazdığımız kodların tamamını *body* etiketinin içeriği olarak yazacağız.
 
-Buradan sonra öncelikle ne yapacağımızdan bahsedeceğiz ve daha sonra hazırladığımız kodu göreceğiz. Lütfen hazır koda bakmadan önce kendini yazmak istemiyorsanız bile aklınızda hangi etiketleri nasıl ve nerede kullanacağınızı hayal edin. Böylelikle bilgilerin kalıcılığı yüksek oranda artacaktır. Bu tamamen sizin öğrenme yöntemlerinize göre değişiklik gösterecektir ancak dökümana katılım gösterirseniz kalıcılık kesinlikle artacaktır.
+Buradan sonra öncelikle ne yapacağımızdan bahsedeceğiz ve daha sonra hazırladığımız kodu göreceğiz. Lütfen hazır koda bakmadan önce kendiniz yazmak istemiyorsanız bile aklınızda hangi etiketleri nasıl ve nerede kullanacağınızı hayal edin. Böylelikle bilgilerin kalıcılığı yüksek oranda artacaktır. Bu tamamen sizin öğrenme yöntemlerinize göre değişiklik gösterecektir ancak dökümana katılım gösterirseniz kalıcılık kesinlikle artacaktır.
 
 Öncelikle sayfamızın bir başlık kısımı olacak o yüzden bir *header* etiketi oluşturalım. Bu etiketin içine de önce *h1* etiketi ile adımızı soyadımızı yazalım altına da fotoğrafımızı koyalım. Onun altına da bir menü listesi oluşturalım. Menümüzü daha sonra işlevsel hale getireceğiz, şimdilik sadece şablonumuzu hazırlayalım. Menümüzde bulunacak elemanlar;
 

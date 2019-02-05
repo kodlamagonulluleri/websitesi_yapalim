@@ -7,4 +7,4 @@ Dökümanın bu bölümüne geldiysek artık kişisel web sayfamızın temelleri
 &nbsp;&nbsp;&nbsp;&nbsp;|-- style.css  <br>
 &nbsp;&nbsp;&nbsp;&nbsp;|-- ben.jpg (ve ya .png)
 
-Şimdi bir sonraki bölüme geçip kodlarımı yazmaya başlayabiliriz.
+Şimdi bir sonraki bölüme geçip kodlarımızı yazmaya başlayabiliriz.
