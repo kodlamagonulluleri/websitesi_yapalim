@@ -132,7 +132,7 @@ Bu bölümleri oluştururken her birini *section* etiketi içinde yazacağımız
                 <a href="mailto:ben@bisguzar.com">E-mail</a>
             </li>
             <li>
-            	<a href="www.twitter.com/bugraisguzar">@bugraisguzar</a>
+            	<a href="http://www.twitter.com/bugraisguzar">@bugraisguzar</a>
             </li>
         </ul>
     </section>
