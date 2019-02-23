@@ -43,7 +43,7 @@ Menü kısımımızın HTML kodları nasıldı bir hatırlayalım.
 	</ul>
 ~~~
 
-Şimdi buradaki her elemana ilgili alanına bağlantı ekleyeceğiz. Örneğin *Özet* elemanına id'si *ozet* olan bölgeye yönlendiren bir bağlantı ekleyeceğiz. Hepsini eklediğimizde şuna benzer görünüyor olmalı.
+Şimdi buradaki her elemana ilgili olduğu alanın bağlantısını tanımlayacağız. Örneğin *Özet* elemanına id'si *ozet* olan bölgeye yönlendiren bir bağlantı ekleyeceğiz. Hepsini eklediğimizde şuna benzer görünüyor olmalı.
 
 ~~~html
 	<ul>
