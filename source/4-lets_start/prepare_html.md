@@ -11,7 +11,7 @@
 <body>
 
 </body>
-</html
+</html>
 ~~~
 
 Başlangıç için *index.html* sayfamızı bu şekilde düzenleyelim. Ben *title* yani başlık kısımına kendi adımı yazmayı tercih ettim. Siz de kendi adınızla değiştirebilir, *benim sitem, ilk sitem* gibi istediğiniz herhangi bir başlığı koyabilirsiniz. Yaratıcılığınıza kalmış!
