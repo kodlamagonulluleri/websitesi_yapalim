@@ -11,7 +11,7 @@
 <body>
 
 </body>
-</html
+</html>
 ~~~
 
 Başlangıç için *index.html* sayfamızı bu şekilde düzenleyelim. Ben *title* yani başlık kısımına kendi adımı yazmayı tercih ettim. Siz de kendi adınızla değiştirebilir, *benim sitem, ilk sitem* gibi istediğiniz herhangi bir başlığı koyabilirsiniz. Yaratıcılığınıza kalmış!
@@ -132,7 +132,7 @@ Bu bölümleri oluştururken her birini *section* etiketi içinde yazacağımız
                 <a href="mailto:ben@bisguzar.com">E-mail</a>
             </li>
             <li>
-            	<a href="www.twitter.com/bugraisguzar">@bugraisguzar</a>
+            	<a href="http://www.twitter.com/bugraisguzar">@bugraisguzar</a>
             </li>
         </ul>
     </section>

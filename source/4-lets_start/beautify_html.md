@@ -66,7 +66,7 @@ body {
 
 Kodumuzun son hali bu şekilde olacak. Eğer siz kodunuzu kendiniz yazdıysanız kıyaslayabilirsiniz. Tekrar tarayıcımız üzerinden kontrol edelim ve sayfamızın ilk haliyle şimdiki hali arasındaki belirgin farkı gözetleyelim.
 
-Daha öncesinde hatırlıyorsanız sayfamıza görsel eklediğimizde görselimiz abartı boyutlardaydı. Tabii bu benim görselimin boyutlarından dolayıydı, sizin eklediğiniz fotoğrafınız daha küçük ve ya büyük olabilir. Ancak biz yine de resimin kaplayabileceği yüksekliği sınırlarsak standart bir görünüm elde edebiliriz. *max-width* özelliğinin elemanın genişliğini sınırlandırdığından bahsetmiştik. Elemanın yüksekliğini sınırlandırmak için de *max-height* özelliğini kullanacağız. Görselimizi *img* etiketi ile eklediğimiz için seçicisi *img* etiketi olan yeni bir css kodu hazırlayalım ve *max-height* özelliğine *150px* değerini verelim.
+Daha öncesinde hatırlıyorsanız sayfamıza görsel eklediğimizde görselimiz abartı boyutlardaydı. Tabii bu benim görselimin boyutlarından dolayıydı, sizin eklediğiniz fotoğrafınız daha küçük veya büyük olabilir. Ancak biz yine de resimin kaplayabileceği yüksekliği sınırlarsak standart bir görünüm elde edebiliriz. *max-width* özelliğinin elemanın genişliğini sınırlandırdığından bahsetmiştik. Elemanın yüksekliğini sınırlandırmak için de *max-height* özelliğini kullanacağız. Görselimizi *img* etiketi ile eklediğimiz için seçicisi *img* etiketi olan yeni bir css kodu hazırlayalım ve *max-height* özelliğine *150px* değerini verelim.
 
 ~~~css
 img {
