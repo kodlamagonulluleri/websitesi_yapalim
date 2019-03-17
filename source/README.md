@@ -4,6 +4,8 @@ Selamlar, bu döküman ile birlikte internet sitelerinin ve tarayıcıların vaz
 
 Bu dökümanda karşılaştığınız eksikleri, yazım yanlışlarını veya şöyle olsa daha anlaşılabilir olurmuş dediğiniz yerleri bizlere twitter [@kodlamag](https://twitter.com/KodlamaG) ve [@bugraisguzar](https://twitter.com/bugraisguzar) hesaplarından bildirebilirsiniz. Aynı zamanda bu döküman GitHub üzerinde barınıyor. Dolayısıyla GitHub üzerinden düzeltilmiş versiyonunu gönderebilir, dökümana katkıda bulunabilirsiniz.
 
+Bu dökümanın bir de PDF versiyonu mevcut. Ticari olarak kullanım hariç olmak üzere kaynak göstererek istediğiniz gibi kullanabilirsiniz. PDF versiyonunu [görüntülemek](https://github.com/kodlamagonulluleri/websitesi_yapalim/blob/master/book.pdf) için buraya, indirmek için [buraya](https://github.com/kodlamagonulluleri/websitesi_yapalim/raw/master/book.pdf) tıklayabilirsiniz.
+
 # Hazırlık
 
 Bu dökümanı sürdürürken ihtiyaç duyacağınız bazı şeyler var. Bunları başlamadan önce hazırlamanız gerekiyor.
