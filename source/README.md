@@ -6,7 +6,7 @@ Bu dökümanda karşılaştığınız eksikleri, yazım yanlışlarını veya ş
 
 Bu dökümanın bir de PDF versiyonu mevcut. Ticari olarak kullanım hariç olmak üzere kaynak göstererek istediğiniz gibi kullanabilirsiniz. PDF versiyonunu [görüntülemek](https://github.com/kodlamagonulluleri/websitesi_yapalim/blob/master/book.pdf) için buraya, indirmek için [buraya](https://github.com/kodlamagonulluleri/websitesi_yapalim/raw/master/book.pdf) tıklayabilirsiniz.
 
-Dökümanı tamamladığınızda nasıl bir sonuç elde edeceğinizi merak ediyorsanız [Sonuçlar](6-results.html) sayfasında bu güne kadar dökümanı tamamlayanların oluşturdukları web sayfalarını inceleyebilirsiniz. Sonuçlar sayfasına sizin de web adresinizi eklememiz için dökümanı tamamladıktan sonra bağlantınızı bizimle paylaşmayı unutmayın!
+Dökümanı tamamladığınızda nasıl bir sonuç elde edeceğinizi merak ediyorsanız [Sonuçlar](/6-results.html) sayfasında bu güne kadar dökümanı tamamlayanların oluşturdukları web sayfalarını inceleyebilirsiniz. Sonuçlar sayfasına sizin de web adresinizi eklememiz için dökümanı tamamladıktan sonra bağlantınızı bizimle paylaşmayı unutmayın!
 
 # Hazırlık
 
