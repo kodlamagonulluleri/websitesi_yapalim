@@ -12,3 +12,4 @@
 	* [Görünüşü Güzelleştirelim](4-lets_start/beautify_html.md)
 	* [Son Dokunuşlar](4-lets_start/retouch.md)
 * [Sayfamızı Yayınlayalım](5-deployment.md)
+* [Sonuçlar](6-results.md)
